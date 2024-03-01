@@ -1,0 +1,89 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    color: white;
+}
+
+#outer{
+    width: 30%;
+    height: 30%;
+    background-color: darkcyan;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+#outer h1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#forms input{
+    width: 90%;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 3%;
+    margin-right: 5%;
+}
+#forms button{
+    width: 50%;
+    font-size: 25px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#list{
+    width: 50%;
+    background-color: darkcyan;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+thead{
+    background-color: black;
+}
+th{
+    padding: 5px;
+    font-size: 25px;
+}
+td{
+    padding: 5px;
+    font-size: 15px;
+}
+td button{
+    width: 60px;
+    font-size: 15px;
+    padding: 3px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-left: 6px;
+    margin-top: 3px;
+    /* margin-right: auto; */
+}
+thead #tname{
+    width: 30%;
+}
+thead #tage{
+    width: 10%;
+}
+thead #tcourse{
+    width: 30%;
+}
+thead #temail{
+    width: 20%;
+}
+thead #taction{
+    width: 10%;
+}

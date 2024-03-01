@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name_List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="outer">
+        <h1>Student Form</h1>
+        <div id="forms">
+            <input type="text" name="name" id="usrname" placeholder="Name">
+            <input type="text" name="age" id="usrage" placeholder="Age">
+            <!-- <div id="gender"></div> -->
+            <input type="text" name="course" id="usrcourse" placeholder="Course">
+            <input type="text" name="mail" id="usremail" placeholder="E-mail">
+            <button id="savebutton" onclick="save(event)">Save</button>
+        </div>
+    </div>
+    <div id="list">
+        <table border="2">
+            <thead>
+                <th id="tname">Name</th>
+                <th id="tage">Age</th>
+                <th id="tcourse">Course</th>
+                <th id="temail">E-mail</th>
+                <th id="taction">Action</th>
+            </thead>
+            <tbody id="tbody">
+                <tr id="row">
+                    <!-- <td>Vihaan</td>
+                    <td>2</td>
+                    <td>Pre-kg</td>
+                    <td>vihaan18@gmail.com</td>
+                    <td><button onclick="del(event)">Delete</button></td> -->
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
